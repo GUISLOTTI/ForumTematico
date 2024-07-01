@@ -1,0 +1,363 @@
+.login-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.login-container {
+    background-color: #ecf0f1;
+    padding: 60px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.login-container h1 {
+    height: 50px;
+
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.form-group button:hover {
+    background-color: #2b76c1;
+}
+.sidebar .logout {
+    margin-top: auto;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.sidebar .logout:hover {
+    background-color: #c82333;
+}
+.content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+body.dark {
+         background-color: #2c3e50;
+            color: #6f888d;
+            margin: 0 0 10px;
+        }
+        body.telaNormal {
+            background-color: #f4f4f4;
+            color: #2c3e50;
+        }
+        .task-card {
+            background-color: #ecf0f1;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        .task-card h3 {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+        .task-card p {
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        .task-board {
+            display: flex;
+            justify-content: space-between;
+            background-color: #2c3e50;
+        }
+        .task-column {
+            width: 24%;
+            background-color: #bdc3c7;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 2px;
+        }
+        .feedback-form {
+            display: block;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .sidebar {
+            background-color: #333;
+            color: #fff;
+            width: 250px;
+            height: 95,6%;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        .sidebar h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .sidebar nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .sidebar nav ul li {
+            margin-bottom: 10px;
+        }
+        .sidebar nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            padding: 10px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+        .sidebar nav ul li a:hover {
+            background-color: #555;
+        }
+        .content {
+            flex-grow: 1;
+            padding: 20px;
+        }
+        .dashboard, .tasks, .calendar, .settings, .add-task {
+            display: none;
+            
+        }
+        .dashboard.active, .tasks.active, .calendar.active, .settings.active, .add-task.active {
+            display: block;
+        }
+        
+        .calendar table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .calendar th, .calendar td {
+            text-align: center;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        
+        .calendar th {
+            background-color: #007bff;
+            color: #fff;
+        }
+        
+        .calendar tbody td {
+            background-color: #fff;
+        }
+        
+        .dashboard .profile {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .dashboard .profile img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .dashboard .profile h3 {
+            margin: 0;
+        }
+        .dashboard .summary {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .dashboard .summary div {
+            background-color: #ecf0f1;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            flex-grow: 1;
+            margin: 0 10px;
+        }
+        .dashboard .summary h4 {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+        .dashboard .summary p {
+            font-size: 16px;
+            font-weight: bold;
+            color: #007bff;
+            margin-bottom: 5px;
+        }
+        .tasks h2, .add-task h2, .calendar h2, .settings h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .tasks button, .add-task button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .tasks button:hover, .add-task button:hover {
+            background-color: #0056b3;
+        }
+        .settings form {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .settings form div {
+            margin-bottom: 10px;
+        }
+        
+        .settings form label {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        
+        .settings form button {
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            align-self: flex-start;
+            width: auto;
+        }
+        
+        .settings form button:hover {
+            background-color: #218838;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input {
+            width: auto;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-group button {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .feedback-modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.4);
+        }
+        
+        .feedback-modal-content {
+            background-color: #fefefe;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 600px;
+            position: relative;
+        }
+        
+        .feedback-modal-content .close {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        
+        .feedback-modal-content h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        
+        .feedback-modal-content form div {
+            margin-bottom: 10px;
+        }
+        
+        .feedback-modal-content form label {
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        
+        .feedback-modal-content form textarea {
+            width: 100%;
+            padding: 10px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        
+        .feedback-modal-content form button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            width: 100%;
+        }
+        
+        .feedback-modal-content form button:hover {
+            background-color: #0056b3;
+        }
+        
+        #todayTasks { background-color: #fe782bd0; }
+        #tomorrowTasks { background-color: #ffdd00; }
+        #weekTasks { background-color: #51ff00; }
+        #lateTasks { background-color: #e83838; }
+        .task-card.today { background-color: #fff; }
+        .task-card.tomorrow { background-color: #fff; }
+        .task-card.week { background-color: #fff; }
+        .task-card.late { background-color: #fff; }
